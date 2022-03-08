@@ -1,0 +1,42 @@
+#Jumbotron
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#Header
+  .bottom-header h2 {
+    color:#ffffff;
+    font-size:35px
+    }
+
+    caption {
+        display: table-caption;
+        text-align: center;
+      }
+
+  
+@media(max-width: 640px)
+{
+    #navigationList{
+        /* visibility: hidden !important; */
+        display: none;   
+        
+    }
+    #smallScreenNav{
+        visibility: visible;
+    }
+}   
+
+@media(min-width: 641px)
+{
+    #navigationList{
+        visibility: visible !important;
+    }  
+    
+    #smallScreenNav{
+        /* visibility: hidden; */
+        display: none;   
+    }
+}    
